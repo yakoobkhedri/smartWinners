@@ -1,0 +1,68 @@
+body {
+    user-select: none;
+}
+
+header ul {
+    background-color: #F30000;
+    margin-right: -5px;
+}
+
+header select {
+    outline: none;
+}
+
+header ul li,
+.banner,
+.headerSocial a {
+    cursor: pointer;
+    transition: all .4s;
+}
+
+header .myAccount,
+.playCard {
+    background-color: #0061A3;
+    cursor: pointer;
+}
+
+.section2 button,
+.section3 button,
+.section4 button {
+    background-color: #F7D300;
+    cursor: pointer;
+}
+
+.section3 h6,
+.section4 h6 {
+    background-color: #F30000;
+}
+
+.section3 .alarm {
+    color: #0061A3;
+}
+
+.winners {
+    height: 266px;
+    overflow-y: auto;
+}
+
+.winners::-webkit-scrollbar {
+    display: none;
+}
+
+footer {
+    background-color: #fbfbfb;
+    background-image: url('../images/Untitled.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 135px 157px 135px 157px;
+}
+
+.footerDescription {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 9px!important;
+    }
+}
